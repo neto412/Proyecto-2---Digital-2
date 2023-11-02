@@ -5,6 +5,7 @@ Proyecto 2 - Digital 2. Sensor de alcohol MQ3
 //Universidad del Valle de Guatemala
 //Electrónica Digital 2
 //Sección 10 
+//Ernesto Salvador Chavez González - 21441
 
 //Librerías
 #include <Arduino.h>
