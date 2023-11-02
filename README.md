@@ -13,13 +13,16 @@ Proyecto 2 - Digital 2. Sensor de alcohol MQ3
 //Variables globales
 
 #define TIME_UNTIL_WARMUP 120000  // 2 minutos en milisegundos
+
 #define CALIBRATION_TIME  30000   // 30 segundos para calibración
 
 unsigned long tiempo; 
 int analogPin = 4; 
 int val = 0;
 int baseValue = 0;  // Para almacenar el valor de calibración
+
 unsigned long lastPrintTime = 0;
+
 bool buttonPressed = false;  // Variable para rastrear el estado del botón
 
 //Setup
