@@ -11,8 +11,10 @@ Proyecto 2 - Digital 2. Sensor de alcohol MQ3
 #include <Arduino.h>
 
 //Variables globales
+
 #define TIME_UNTIL_WARMUP 120000  // 2 minutos en milisegundos
 #define CALIBRATION_TIME  30000   // 30 segundos para calibración
+
 unsigned long tiempo; 
 int analogPin = 4; 
 int val = 0;
